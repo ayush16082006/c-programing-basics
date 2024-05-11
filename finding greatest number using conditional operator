@@ -2,7 +2,7 @@
 int main()
 {
 int a,b,c,d;
-a=15,b=23,c=25;
+a=10,b=29,c=28;
 d=(a > b) ? (a > c ? a : c) : ( b > c ? b : c);
 printf("the greatest number is :%d",d);
 return 0;
