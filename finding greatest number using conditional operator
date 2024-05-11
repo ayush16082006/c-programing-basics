@@ -2,8 +2,11 @@
 int main()
 {
 int a,b,c,d;
-a=10,b=29,c=28;
+printf("enter the three the numbers\n");
+scanf("%d%d%d",&a,&b,&c);
 d=(a > b) ? (a > c ? a : c) : ( b > c ? b : c);
 printf("the greatest number is :%d",d);
 return 0;
+
+
 }
