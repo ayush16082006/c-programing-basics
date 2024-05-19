@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+  printf("what would you like to order ,sir\n");
+  printf("press T for coffe, press C for coffe,press D for colddrink\n");
+  char ch;
+  scanf("%c",&ch);
+  switch(ch)
+  {
+  case'T':printf("here is your tea, sir");
+  break;
+  case'c': printf("here is your coffe, sir");
+   break;
+   case'd':printf("here is your cold drink,sir");
+    break;
+    default: printf("sorry sir, order not found");
+
+ }
+ return 0;
+}
