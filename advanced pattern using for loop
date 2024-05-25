@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+int s,l,c;
+for(l=1;l<=7;l++)
+{
+if(l<=4)
+{
+for(s=2;s<=l;s++)
+printf(" ");
+for(c=4;c>=l;c--)
+printf("1");
+
+}
+else{
+for(s=6;s>=l;s--)
+printf(" ");
+for(c=4;c<=l;c++)
+
+printf("1");
+
+}
+printf("\n");
+}
+return 0;
+}
